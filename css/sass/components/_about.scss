@@ -1,0 +1,77 @@
+.about {
+	text-align: center;
+}
+
+.about__intro {
+	padding: 20% 7%;
+    width: $fullwidth;
+    margin: 16% auto 0%;
+    z-index: $mid;
+    position: relative;
+    background-color: $aboutOverlay;
+    box-shadow: 0 0 150px $aboutShadow;
+}
+
+.about__title {
+	color: $whiteColor;
+    font-family: $sofiaSemiBoldFont;
+    text-align: center;
+    font-weight: $normal;
+    font-size: $aboutTitle;
+    letter-spacing: -1px;
+}
+
+.about__text {
+	color: $whiteColor;
+    text-align: center;
+    font-family: $sofiaFont;
+    font-weight: $normal;
+    font-size: $text;
+    line-height: $aboutLineHeight;
+    margin-top: 20px;
+}
+
+.about__skills {
+	background: url(../images/wavy.png) top left no-repeat;
+    background-size: 200%;
+    background-color: $aboutOverlay;
+    padding: 11% 7%;
+    width: $fullwidth;
+    position: relative;
+    z-index: $mid;
+}
+
+.skills__single {
+	width: $fullwidth;
+    float: none;
+    padding: 0;
+    text-align: left;
+}
+
+.picture__container {
+	position: relative;
+    top: 160px;
+    left: 0;
+    width: 150px;
+    z-index: 100;
+}
+
+.skills__bubble {
+	margin: -46px auto 0 0;
+	background-color: $waterDropBackground;
+	width: 150px;
+	height: 150px;
+}
+
+.about__title--margin {
+    margin-top: 70px;
+    text-align: left;
+}
+
+.about__text--grey {
+	color: $lightGreyColor;
+	font-size: $mainFontSize;
+	line-height: $skillsLineHeight;
+	margin-top: 18px;
+	text-align: left;
+}

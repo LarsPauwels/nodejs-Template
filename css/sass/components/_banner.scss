@@ -1,0 +1,65 @@
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.banner__title {
+    width: $fullwidth;
+    padding-top: 46vh;
+    margin: 0 auto;
+}
+
+.main__word {
+	opacity: 0;
+	position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.main__letter {
+	display: inline-block;
+    position: relative;
+    float: none;
+    -webkit-transform: translateZ(25px);
+    transform: translateZ(25px);
+    -webkit-transform-origin: 50% 50% 25px;
+    transform-origin: 50% 50% 25px;
+}
+
+.main__letter.in {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition: -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.main__letter.out {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.main__letter.behind {
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+.banner__scroll {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    margin-left: -3px;
+    width: 8px;
+    height: 36px;
+    background-image: url(../images/scroll.svg);
+    background-size: contain;
+    z-index: $bottom;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}

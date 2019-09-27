@@ -1,0 +1,14 @@
+/*VARIABLES*/
+@import "../variables";
+
+/*DEFAULT CSS*/
+@import "../default";
+@import "./header";
+@import "./footer";
+
+/*PAGE CSS*/
+@import "./../components/banner";
+@import "./../components/about";
+
+/*KEYFRAMES*/
+@import "./../components/keyframes";

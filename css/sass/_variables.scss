@@ -1,0 +1,65 @@
+//FONTS FAMILIES
+$sofiaFont: sofiaPro-regular, Futura, 'Trebuchet MS', Arial, sans-serif;
+$sofiaBoldFont: sofiaPro-bold, Futura, 'Trebuchet MS', Arial, sans-serif;
+$sofiaSemiBoldFont: SofiaPro-SemiBold, Futura, 'Trebuchet MS', Arial, sans-serif;
+
+//IMAGE SIZES
+$mainSize: 50px;
+
+//FONT SIZES
+$mainFontSize: 18px;
+$navigationTitleFontSize: 12px;
+$navigationLinkFontSize: 24px;
+$footerFontSize: 14px;
+$aboutTitle: 10vw;
+$text: 20px;
+
+//FONT WEIGHTS
+$normal: normal;
+
+//LINE HEIGHTS
+$navigationLineHeight: 80px;
+$aboutLineHeight: 34px;
+$skillsLineHeight: 30px;
+
+//LETTER SPACINGS
+$navigationTitleSpacing: 4px;
+$pageTitleSpacing: -4px;
+
+//TRANSITION TIMES
+$mainTransition: .3s;
+$resetTransition: 0s;
+$navTransition: .9s;
+$waterDropTransition: .6s;
+
+//BACKGROUND COLORS
+$mainBackground: #273040;
+$blackBackground: #000;
+$waterDropBackground: #1a202b;
+$navBackground: #1a202b;
+$aboutOverlay: #273040ed;
+
+//BOX-SHADOW COLORS
+$aboutShadow: #000000a6;
+
+//COLORS
+$accentColor: #01b9c2;
+$whiteColor: #ffffff;
+$inactiveColor: #585f6d;
+$greyColor: #4f5765;
+$lightGreyColor: #7c8898;
+$linkColor: #00E5EA;
+
+//BORDER RADIUS
+$circleBorder: 50%;
+$hamburgerBorder: 5px;
+
+//WIDTH
+$fullwidth: 100%;
+
+//Z-INDEX
+$top: 999;
+$mid: 500;
+$low: 100;
+$bottom: 1;
+$defaultIndex: 0;
